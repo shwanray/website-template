@@ -1,0 +1,147 @@
+.ul li{
+	text-align:right;
+	display:inline-block;
+	padding:5px;
+	color:black;
+	border:2px solid black;
+	background:orange;
+	transition:0.2s;
+}
+.ul li:hover{
+	background:red;
+	
+}
+.ul{
+	text-align:right;
+}
+.web{
+	color:orange;
+	padding-top:50px;
+	padding-left:200px;
+
+}
+.web button h3:hover{
+	background:red;
+}
+.course{
+	text-align:center;
+}
+.row{
+	margin-top:5%;
+	display:flex;
+	justify-content:space-between;
+}
+.course-col{
+	flex-basis:31%;
+	background:#003f80;
+	border-radius:10px;
+	margin-bottom:5%;
+	padding:20px 12px;
+	box-sizing:border-box;
+	transition:0.2s;
+}
+h3{
+	text-align:center;
+	font-weight:600;
+	margin:10px 0;
+}
+.course-col:hover{
+	background:orange;
+}
+
+
+/*-----cumpus-----*/
+
+
+.cumpus{
+	width:100%;
+	margin:auto;
+	text-align:center;
+	padding-top:50px;
+	
+}
+.cumpus-col{
+	flex-basis:32%;
+	border-radius:10px;
+	margin-bottom:30px;
+	position:relative;
+	overflow:hidden;
+	
+}
+.cumpus-col img{
+	width:100%;
+}
+
+.footer{
+	width:100%;
+	margin:auto;
+	text-align:center;
+	padding-top:50px;
+	
+}
+.footer-col{
+	flex-basis:32%;
+	border-radius:10px;
+	margin-bottom:30px;
+	position:relative;
+	overflow:hidden;
+	background:linear-gradient(red,green,blue);
+	width:100%;
+	
+}
+/*----testimonials-----*/
+
+.testimonials{
+	width:100%;
+	margin:auto;
+	padding:50px;
+	text-align:center;
+}
+.testimonials-col{
+	flex-basis:44%;
+	border-radius:10px;
+	margin-bottom:5%;
+	text-align:left;
+	background:#fff;
+	padding:25px;
+	cursor:pointer;
+	display:flex;
+}
+.testimonials-col img{
+	height:25px;
+	margin-left:5px;
+	margin-right:20px;
+	border-radius:80%;
+}
+.testimonials-col p{
+	padding:0;
+}
+.testimonials-col h3{
+	margin-top:15px;
+	text-align:left;
+}
+
+
+/*----call to action----*/
+
+.cta{
+	margin:10% auto;
+	width:100%;
+	background-image:url(banner.jpg);
+	background-position:center;
+	background-size:cover;
+	border-radius:10px;
+	text-align:center;
+	padding:10% 0;
+}
+.cta a{
+	color:red;
+	border-radius: 2px green;
+	background:green;
+	padding:10px;
+	
+}
+.cta a:hover{
+	background:white;
+}
+
